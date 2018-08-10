@@ -29,7 +29,9 @@ const square = (number)=> {
   This function takes a number and returns the mathematical cube
   of that number
 */
-
+const cube = (number)=> {
+  return square(number) * number;
+}
 
 /*
   gcd
