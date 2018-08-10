@@ -49,7 +49,7 @@ const gcd = (firstNumber,secondNumber)=>{
   lcm
   This function returns the least common multiple of any two numbers
 */
-const gcd = (firstNumber,secondNumber)=>{
+const lcm = (firstNumber,secondNumber)=>{
   return (firstNumber * secondNumber) / gcd(firstNumber,secondNumber);
 }
 
