@@ -20,6 +20,9 @@ const isodd = (number)=> {
   This function takes a number and returns the mathematical square
   of that number
 */
+const square = (number)=> {
+  return number * number;
+}
 
 /*
   cube
