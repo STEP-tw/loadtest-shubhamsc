@@ -59,7 +59,9 @@ const lcm = (firstNumber,secondNumber)=>{
   This function returns the simple interest calculated when given
   principle, period and rate of interest(in that order)
 */
-
+const simpleInterest = (principle,rate,time) => {
+  return (principle * rate * time ) /100;
+}
 
 /*
   compoundInterest
