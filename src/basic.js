@@ -43,13 +43,15 @@ const gcd = (firstNumber,secondNumber)=>{
       return divisor;
     }
   }
- }
+}
 
 /*
   lcm
   This function returns the least common multiple of any two numbers
 */
-
+const gcd = (firstNumber,secondNumber)=>{
+  return (firstNumber * secondNumber) / gcd(firstNumber,secondNumber);
+}
 
 
 /*
