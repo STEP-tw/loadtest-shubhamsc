@@ -37,7 +37,13 @@ const cube = (number)=> {
   gcd
   This function returns the greatest common divisor of any two numbers
 */
-
+const gcd = (firstNumber,secondNumber)=>{
+  for(let divisor=firstNumber;divisor>=1;divisor--){
+    if (firstNumber%divisor==0&&secondNumber%divisor==0){
+      return divisor;
+    }
+  }
+ }
 
 /*
   lcm
