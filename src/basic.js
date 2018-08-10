@@ -78,7 +78,13 @@ const compoundInterest = (principle, noOfYears, rate, compFreq) => {
   greatestOf
   This function returns the greatest of three numbers
 */
-
+const greatestOf = (firstNumber,secondNumber,thirdNumber) =>{
+  if(firstNumber >secondNumber && firstNumber >thirdNumber)
+    return firstNumber;
+  else if (secondNumber > thirdNumber)
+    return secondNumber;
+  return thirdNumber;
+}
 
 /*
   averageOf
